@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/fonts/GILROY-BLACK.TTF");
+  font-weight: 1000;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/fonts/GILROY-HEAVY.TTF");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/fonts/GILROY-EXTRABOLD.TTF");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/fonts/GILROY-BOLD.TTF");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/fonts/GILROY-SEMIBOLD.TTF");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/fonts/GILROY-MEDIUM.TTF");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/fonts/GILROY-REGULAR.TTF");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/fonts/GILROY-LIGHT.TTF");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/fonts/GILROY-THIN.TTF");
+  font-weight: 250;
+  font-style: normal;
+}
