@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.682913b8.css",
-    "main.js": "/static/js/main.cabc258a.js",
+    "main.js": "/static/js/main.06f16b18.js",
     "static/js/787.c3a4e465.chunk.js": "/static/js/787.c3a4e465.chunk.js",
     "static/media/BeOurSponsorBanner.png": "/static/media/BeOurSponsorBanner.e1b55c6c89396a232eee.png",
     "static/media/frontSideVew.png": "/static/media/frontSideVew.21da6b394d857fb9ca62.png",
@@ -29,23 +29,23 @@
     "static/media/Elnur.jpg": "/static/media/Elnur.4267ae9f12f91c211760.jpg",
     "static/media/Rakhat.jpg": "/static/media/Rakhat.c2a3185c9012108eee39.jpg",
     "static/media/sdu_logo.png": "/static/media/sdu_logo.5d3d4098645b8ac11eef.png",
-    "static/media/n1grouptitle.svg": "/static/media/n1grouptitle.94e2417cd4f4f5ec9b78af86ae3a8fc4.svg",
+    "static/media/n1grouptitle.svg": "/static/media/n1grouptitle.9cd26e3e7cbe994846cb8ad369cf3eb3.svg",
     "static/media/FOEsdu.png": "/static/media/FOEsdu.aa18359dbd9fac29b1ff.png",
     "static/media/front-half-of-car.png": "/static/media/front-half-of-car.93b7091d32d026a11695.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/roundInstagramLogo.svg": "/static/media/roundInstagramLogo.720d98fbfa53e52a64a5ad391594b8f1.svg",
-    "static/media/roundTwitterLogo.svg": "/static/media/roundTwitterLogo.a06bc15faf271ff3f90606d02575c415.svg",
+    "static/media/roundInstagramLogo.svg": "/static/media/roundInstagramLogo.a1c8e12bb1954cc29df31232457e6b89.svg",
+    "static/media/roundTwitterLogo.svg": "/static/media/roundTwitterLogo.88a75ce70a57cf2620d52accc52e5f52.svg",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "static/media/roundTelegramLogo.svg": "/static/media/roundTelegramLogo.3d966ec5455b7098458b722df0742de4.svg",
+    "static/media/roundTelegramLogo.svg": "/static/media/roundTelegramLogo.19bddc7110fe73023f2808dcaa4c489c.svg",
     "index.html": "/index.html",
     "main.682913b8.css.map": "/static/css/main.682913b8.css.map",
-    "main.cabc258a.js.map": "/static/js/main.cabc258a.js.map",
+    "main.06f16b18.js.map": "/static/js/main.06f16b18.js.map",
     "787.c3a4e465.chunk.js.map": "/static/js/787.c3a4e465.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.682913b8.css",
-    "static/js/main.cabc258a.js"
+    "static/js/main.06f16b18.js"
   ]
 }
