@@ -25,7 +25,7 @@ const MainContent = () => {
             <ContentTitle src={Title} />
             <ContentDescription>
               Мы первые участники гонок Formula Student в КЗ. Предлогаем узнать
-              об инженерном проекте
+              об инженерном проекте tima loh
             </ContentDescription>
 
             <ContentButton onClick={handleButtonClick}>
