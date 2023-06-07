@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.682913b8.css",
-    "main.js": "/static/js/main.06f16b18.js",
+    "main.js": "/static/js/main.3eb5dd1d.js",
     "static/js/787.c3a4e465.chunk.js": "/static/js/787.c3a4e465.chunk.js",
     "static/media/BeOurSponsorBanner.png": "/static/media/BeOurSponsorBanner.e1b55c6c89396a232eee.png",
-    "static/media/frontSideVew.png": "/static/media/frontSideVew.21da6b394d857fb9ca62.png",
-    "static/media/bolidInformation.png": "/static/media/bolidInformation.0e5391e6d2e2730f6760.png",
+    "static/media/bolidInformation.png": "/static/media/bolidInformation.fda178160e1499f4fe05.png",
     "static/media/leftSideView.png": "/static/media/leftSideView.6f3c160a159166c3d9bb.png",
     "static/media/rightSideView.png": "/static/media/rightSideView.9a614c4fb03106a71e17.png",
     "static/media/rightAngularSideView.png": "/static/media/rightAngularSideView.4b4191f6877f8c708514.png",
     "static/media/characteristics.png": "/static/media/characteristics.5fffecf54e6e8c6b5fee.png",
     "static/media/bannerPhoto.png": "/static/media/bannerPhoto.57b1ebfb5cecaef342c6.png",
+    "static/media/frontSideVew.png": "/static/media/frontSideVew.dc1f71a1a5a061931fa7.png",
     "static/media/GILROY-THIN.TTF": "/static/media/GILROY-THIN.6941fc589e381c95542c.TTF",
     "static/media/GILROY-LIGHT.TTF": "/static/media/GILROY-LIGHT.b9649c78f0d347e22928.TTF",
     "static/media/GILROY-REGULAR.TTF": "/static/media/GILROY-REGULAR.e2fa813181d08f5940bc.TTF",
@@ -41,11 +41,11 @@
     "static/media/roundTelegramLogo.svg": "/static/media/roundTelegramLogo.19bddc7110fe73023f2808dcaa4c489c.svg",
     "index.html": "/index.html",
     "main.682913b8.css.map": "/static/css/main.682913b8.css.map",
-    "main.06f16b18.js.map": "/static/js/main.06f16b18.js.map",
+    "main.3eb5dd1d.js.map": "/static/js/main.3eb5dd1d.js.map",
     "787.c3a4e465.chunk.js.map": "/static/js/787.c3a4e465.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.682913b8.css",
-    "static/js/main.06f16b18.js"
+    "static/js/main.3eb5dd1d.js"
   ]
 }
