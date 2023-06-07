@@ -14,10 +14,11 @@ import RightSideView from "../../../img/rightSideView.png";
 import LeftSideView from "../../../img/leftSideView.png";
 import FrontSideView from "../../../img/frontSideVew.png";
 import RightAngularSideView from "../../../img/rightAngularSideView.png";
+import styled from "@emotion/styled";
 
 const BolidSideView = () => {
   const [image, setImage] = useState(RightSideView);
-  const [selectedButton, setSelectedButton] = useState("Right Side");
+  const [selectedButton, setSelectedButton] = useState("Справа");
 
   const getButton = (
     selectedButton: React.SetStateAction<string>,
@@ -34,10 +35,10 @@ const BolidSideView = () => {
   };
 
   useEffect(() => {
-    if (selectedButton === "Right Side") setImage(RightSideView);
-    if (selectedButton === "Left Side") setImage(LeftSideView);
-    if (selectedButton === "Front Side") setImage(FrontSideView);
-    if (selectedButton === "Back Side") setImage(RightAngularSideView);
+    if (selectedButton === "Справа") setImage(RightSideView);
+    if (selectedButton === "Слева ") setImage(LeftSideView);
+    if (selectedButton === "Передний") setImage(FrontSideView);
+    if (selectedButton === "Вид с угла") setImage(RightAngularSideView);
   }, [selectedButton]);
 
   return (
@@ -52,20 +53,36 @@ const BolidSideView = () => {
         <BoldText>со всех сторон</BoldText>
       </Header>
       <ButtonWrapper>
-        {getButton(selectedButton, "Right Side")}
-        {getButton(selectedButton, "Left Side")}
-        {getButton(selectedButton, "Front Side")}
-        {getButton(selectedButton, "Back Side")}
+        {getButton(selectedButton, "Справа")}
+        {getButton(selectedButton, "Слева ")}
+        {getButton(selectedButton, "Передний")}
+        {getButton(selectedButton, "Вид с угла")}
       </ButtonWrapper>
       <ImageWrapper>
-        <img
-          src={image}
-          style={{ width: "100%", height: "auto" }}
-          alt="Bolid Side View"
-        />
+        <ImageContainer src={image} style={{}} alt="Bolid Side View" />
       </ImageWrapper>
     </SectionContainer>
   );
 };
 
 export default BolidSideView;
+const ImageContainer = styled.img`
+  width: auto;
+  height: auto;
+  @media screen and (max-width: 1024px) {
+    /* width: 100%; */
+    height: 376px;
+  }
+  @media screen and (max-width: 768px) {
+    /* width: 100%; */
+    height: 250px;
+  }
+  @media screen and (max-width: 425px) {
+    /* width: 100%; */
+    height: 160px;
+  }
+  @media screen and (max-width: 375px) {
+    /* width: 100%; */
+    height: 130px;
+  }
+`;

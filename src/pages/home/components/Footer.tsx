@@ -25,7 +25,7 @@ const Footer = () => {
               Наши особенности
             </Body1>
             <Body1 style={{ color: "#FFF", lineHeight: "50px" }}>
-              Характеристика балита
+              Характеристики болида
             </Body1>
             <Body1 style={{ color: "#FFF", lineHeight: "50px" }}>
               Наши условия

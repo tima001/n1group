@@ -276,12 +276,28 @@ export const ButtonWrapper = styled.div`
   justify-content: space-around;
   margin-bottom: 120px;
   margin-top: 80px;
+  @media screen and (max-width: 1024px) {
+    margin-bottom: 80px;
+    margin-top: 60px;
+  }
+  @media screen and (max-width: 768px) {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  @media screen and (max-width: 425px) {
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  @media screen and (max-width: 375px) {
+    margin-bottom: 30px;
+    margin-top: 28px;
+  }
 `;
 export const WhiteButton = styled(Button)`
   background-color: #fff;
   color: #000;
   text-transform: lowercase;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 24px;
   line-height: 40px;
   padding: 28px;
@@ -292,34 +308,34 @@ export const WhiteButton = styled(Button)`
     background-color: #fff;
     transform: translateZ(0) rotate(3deg);
   }
-  @media (max-width: 800px) {
-    width: 100%;
-  }
-  @media (max-width: 1100px) {
-    padding: 24px;
-    width: 220px;
-  }
-  @media (max-width: 959px) {
-    padding: 20px;
-    width: 190px;
+  @media (max-width: 1024px) {
+    width: 200px;
+    font-weight: 500;
     font-size: 20px;
+    line-height: 40px;
+    padding: 24px;
   }
-  @media (max-width: 820px) {
-    padding: 12px;
-    width: 150px;
-    font-size: 16px;
+  @media (max-width: 768px) {
+    width: 170px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    padding: 24px;
   }
-  @media (max-width: 665px) {
-    padding: 12px;
-    width: 100px;
-    font-size: 16px;
-  }
-  @media (max-width: 465px) {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding: 0;
+  @media (max-width: 425px) {
+    padding: 0px;
     width: 80px;
     font-size: 14px;
+  }
+  @media (max-width: 375px) {
+    padding: 0px;
+    width: 76px;
+    font-size: 14px;
+  }
+  @media (max-width: 375px) {
+    padding: 0px;
+    width: 60px;
+    font-size: 12px;
   }
 `;
 export const SelectedWhiteButton = styled(Button)`
@@ -339,31 +355,35 @@ export const SelectedWhiteButton = styled(Button)`
     transform: translateZ(0) rotate(3deg);
   }
 
-  @media (max-width: 1100px) {
-    padding: 24px;
-    width: 220px;
-  }
-  @media (max-width: 959px) {
-    padding: 20px;
-    width: 190px;
+  @media (max-width: 1024px) {
+    width: 205px;
+    font-weight: 500;
     font-size: 20px;
+    line-height: 40px;
+    padding: 24px;
   }
-  @media (max-width: 820px) {
-    padding: 12px;
-    width: 150px;
-    font-size: 16px;
+
+  @media (max-width: 768px) {
+    width: 170px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    padding: 24px;
   }
-  @media (max-width: 665px) {
-    padding: 12px;
-    width: 100px;
-    font-size: 16px;
-  }
-  @media (max-width: 465px) {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding: 0;
+  @media (max-width: 425px) {
+    padding: 0px;
     width: 80px;
     font-size: 14px;
+  }
+  @media (max-width: 375px) {
+    padding: 0px;
+    width: 76px;
+    font-size: 14px;
+  }
+  @media (max-width: 375px) {
+    padding: 0px;
+    width: 60px;
+    font-size: 12px;
   }
 `;
 export const LittleDarkButton = styled(Button)`
@@ -493,7 +513,6 @@ export const AboutUsContent = styled.h3`
   font-weight: 500;
   font-size: 20px;
   line-height: auto;
-  text-transform: lowercase;
   max-width: 400px;
   margin: 0;
   letter-spacing: 0.02em;
@@ -595,7 +614,7 @@ export const ImgBaleetView = styled.img`
 export const FirstMainContent = styled.div`
   width: 50%;
   display: flex;
-  padding-left: 20px !important;
+  padding-left: 20px;
   align-items: center;
   background-color: #091114;
   padding: 0;
@@ -611,6 +630,10 @@ export const ContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 28px;
+  margin-left: 50px;
+  @media screen and (max-width: 425px) {
+    margin-left: 0;
+  }
 `;
 
 export const ContentTitle = styled.img`
